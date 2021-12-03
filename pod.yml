@@ -12,3 +12,7 @@ spec:
     image: afakharany/watcher:latest
     ports:
     - containerPort: 8080
+  - name: container3
+    image: prasaduvce/spring-petclinic:latest
+    ports:
+    - containerPort: 8080
